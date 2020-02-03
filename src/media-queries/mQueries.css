@@ -1,0 +1,42 @@
+.center, h1, .nav-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  p {
+      max-width: 50%;
+      text-align: center;
+      padding: 0px;
+      display: inline-flexbox;
+  }
+  /* .rightside {
+      float: right;
+      display: inline-block;
+  } */
+
+/* Small and up (Landscape Phones) */
+/*@media (max-width: 576px) {
+
+}
+designing fro moble up so this media query is not needed*/
+
+/* Medium and up (Tablets) */
+@media (max-width: 768px) {
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    .rightside {
+        display: inline-block;
+        margin: 50%;
+        color: blue;
+        font-size: 14px;
+    }
+    .nav-container {
+        display: none;
+    }
+
+}
+
